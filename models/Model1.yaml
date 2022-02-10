@@ -1,0 +1,25 @@
+title: Model1
+type: object
+x-tags:
+  - model
+  - project1
+properties:
+  id:
+    type: string
+  weight:
+    type: number
+  order:
+    type: integer
+  delivered:
+    type: boolean
+  width:
+    type: number
+  heigth:
+    type: number
+examples:
+  - id: string
+    weight: 0
+    order: 0
+    delivered: true
+    width: 0
+    heigth: 0
